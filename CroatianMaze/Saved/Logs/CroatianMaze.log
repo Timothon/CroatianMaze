@@ -1698,3 +1698,810 @@ Actor Begin Overlap Signature  Delegate Signature
 [2023.03.11-19.24.34:789][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.03.11-19.24.34:797][625]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
 [2023.03.11-19.24.34:854][626]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.03.11-19.26.15:812][212]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.11-19.26.15:819][212]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.11-19.26.15:819][212]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.11-19.26.15:819][212]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.26.15:819][212]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.11-19.26.15:819][212]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.11-19.26.15:819][212]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2023.03.11-19.26.15:819][212]LogWorldPartition: Display: GenerateStreaming took 192 us
+[2023.03.11-19.26.15:819][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-19.26.15:819][212]PIE: New page: PIE session: DanielRoom (11 Mar 2023, 09:26:15)
+[2023.03.11-19.26.15:819][212]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.26.15:823][212]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.11-19.26.15:824][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004124s)
+[2023.03.11-19.26.15:824][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/DanielRoom.DanielRoom to /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom (0.004181s)
+[2023.03.11-19.26.15:824][212]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-19.26.15:824][212]LogAIModule: Creating AISystem for world DanielRoom
+[2023.03.11-19.26.15:825][212]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.11-19.26.15:825][212]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.11-19.26.15:826][212]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.03.11-19.26.15:826][212]LogPlayLevel: PIE: World Init took: (0.002353s)
+[2023.03.11-19.26.15:874][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.03.11-19.26.15:876][212]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.03.11-19.26.15:876][212]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-19.26.15:876][212]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-19.26.15:876][212]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-19.26.15:876][212]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-19.26.15:876][212]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-19.26.15:876][212]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.11-19.26.15:876][212]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-19.26.15:876][212]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-19.26.15:877][212]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.11-19.26.15:877][212]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.11-19.26.15:877][212]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.11-19.26.15:879][212]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.11-19.26.15:907][212]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.11-19.26.15:908][212]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-19.26.15:908][212]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-19.26.15:908][212]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-19.26.15:908][212]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.03.11-19.26.15:908][212]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.03.11-19.26.15:910][212]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.03.11-19.26.15:910][212]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.03.11-19.26.15:910][212]LogInit: FAudioDevice initialized.
+[2023.03.11-19.26.15:910][212]LogAudio: Display: Audio Device (ID: 9) registered with world 'DanielRoom'.
+[2023.03.11-19.26.15:923][212]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.11-19.26.15:925][212]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom up for play (max tick rate 60) at 2023.03.11-14.26.15
+[2023.03.11-19.26.15:925][212]LogWorld: Bringing up level for play took: 0.001371
+[2023.03.11-19.26.15:927][212]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.03.11-19.26.15:932][212]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2520.000 Y=270.000 Z=98.338
+[2023.03.11-19.26.15:932][212]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.26.15:933][212]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.26.15:933][212]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.03.11-19.26.15:933][212]PIE: Server logged in
+[2023.03.11-19.26.15:934][212]PIE: Play in editor total start time 0,116 seconds.
+[2023.03.11-19.26.17:179][259]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.26.19:745][413]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.26.19:811][417]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.26.19:845][419]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.26.20:211][441]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.26.20:746][473]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.26.24:679][709]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.26.24:680][709]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.26.26:703][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.26.26:703][828]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.26.26:703][828]LogWorld: UWorld::CleanupWorld for DanielRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-19.26.26:704][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.26.26:714][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-19.26.26:719][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.26.26:767][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.26.26:767][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.11-19.26.26:769][828]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.03.11-19.26.26:776][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.03.11-19.26.26:819][829]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.03.11-19.27.32:233][368]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.11-19.27.32:247][368]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.11-19.27.32:247][368]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.11-19.27.32:248][368]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.27.32:248][368]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.11-19.27.32:248][368]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.11-19.27.32:248][368]LogWorldPartition: Display: GetPartitionedActors took 131 us
+[2023.03.11-19.27.32:248][368]LogWorldPartition: Display: GenerateStreaming took 471 us
+[2023.03.11-19.27.32:248][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-19.27.32:248][368]PIE: New page: PIE session: DanielRoom (11 Mar 2023, 09:27:32)
+[2023.03.11-19.27.32:248][368]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.27.32:255][368]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.11-19.27.32:256][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007248s)
+[2023.03.11-19.27.32:256][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/DanielRoom.DanielRoom to /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom (0.007345s)
+[2023.03.11-19.27.32:256][368]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-19.27.32:257][368]LogAIModule: Creating AISystem for world DanielRoom
+[2023.03.11-19.27.32:257][368]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.11-19.27.32:257][368]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.11-19.27.32:259][368]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.03.11-19.27.32:259][368]LogPlayLevel: PIE: World Init took: (0.003541s)
+[2023.03.11-19.27.32:329][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.03.11-19.27.32:332][368]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.03.11-19.27.32:332][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-19.27.32:332][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-19.27.32:332][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-19.27.32:332][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-19.27.32:332][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-19.27.32:332][368]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.11-19.27.32:332][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-19.27.32:332][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-19.27.32:333][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.11-19.27.32:333][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.11-19.27.32:333][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.11-19.27.32:336][368]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.11-19.27.32:376][368]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.11-19.27.32:377][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-19.27.32:377][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-19.27.32:377][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-19.27.32:377][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.03.11-19.27.32:377][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.03.11-19.27.32:380][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.03.11-19.27.32:380][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.03.11-19.27.32:380][368]LogInit: FAudioDevice initialized.
+[2023.03.11-19.27.32:380][368]LogAudio: Display: Audio Device (ID: 10) registered with world 'DanielRoom'.
+[2023.03.11-19.27.32:391][368]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.11-19.27.32:393][368]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom up for play (max tick rate 60) at 2023.03.11-14.27.32
+[2023.03.11-19.27.32:393][368]LogWorld: Bringing up level for play took: 0.001700
+[2023.03.11-19.27.32:396][368]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.03.11-19.27.32:398][368]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2520.000 Y=270.000 Z=98.338
+[2023.03.11-19.27.32:398][368]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.27.32:399][368]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.27.32:399][368]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.03.11-19.27.32:399][368]PIE: Server logged in
+[2023.03.11-19.27.32:400][368]PIE: Play in editor total start time 0,155 seconds.
+[2023.03.11-19.27.33:567][413]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.27.34:116][439]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.27.34:908][478]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.27.38:930][666]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.27.38:931][666]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.27.40:845][745]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.27.42:231][811]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.27.42:550][826]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.27.43:680][881]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.27.48:801][112]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.50:661][197]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.27.51:039][215]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.51:545][239]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.27.51:970][259]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.52:760][295]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.53:241][317]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.53:545][331]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.27.53:628][335]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.27.54:133][359]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.55:311][413]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.55:743][433]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.27.56:226][456]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.56:978][489]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.57:492][512]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.27.57:899][531]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.27.58:076][539]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.27.58:677][567]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.27.59:157][589]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.27.59:556][607]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.27.59:913][623]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.00:302][640]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.00:593][652]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.28.00:905][666]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.01:081][674]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.01:476][692]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.01:886][711]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.02:229][727]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.02:498][739]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.02:704][748]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.02:902][757]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.03:149][768]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.03:310][775]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.03:473][782]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.03:675][791]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.04:189][814]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.28.04:871][845]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.05:421][869]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.05:794][885]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.06:121][900]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.06:785][930]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.28.07:135][945]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.07:623][967]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.08:024][985]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.08:375][  0]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.08:874][ 22]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.09:198][ 36]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.09:693][ 58]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.28.10:047][ 73]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.10:383][ 88]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.10:761][105]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.11:073][118]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.11:257][126]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.11:709][146]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.11:888][151]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.12:381][173]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.28.12:901][196]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.13:409][218]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.14:033][245]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.14:561][268]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.28.15:155][295]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.28.15:808][325]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.16:285][346]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.16:703][364]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.17:070][381]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.17:440][397]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.17:763][411]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.18:352][436]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.28.18:581][446]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.18:953][462]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.19:268][475]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.19:672][493]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.28.19:919][504]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.20:322][522]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.20:543][531]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.20:720][538]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.21:150][557]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.22:316][606]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.28.22:834][628]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.23:318][649]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.23:715][666]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.23:954][676]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.24:153][685]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.24:330][692]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.24:805][712]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.28.25:112][726]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.25:452][741]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.25:990][765]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.26:355][781]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.28.27:679][839]LogWorldPartition: New Streaming Source: SIE -> Position: X=2047.718 Y=375.228 Z=162.461
+[2023.03.11-19.28.30:488][934]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2047.718 Y=375.228 Z=162.461
+[2023.03.11-19.28.32:161][  6]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.28.33:080][ 46]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.28.33:441][ 61]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.34:036][ 87]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.28.34:694][116]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.35:031][131]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.35:354][145]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.35:515][152]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.35:701][160]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.36:068][176]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.36:210][182]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.36:876][210]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.28.36:899][211]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.28.37:678][246]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.28.38:233][270]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.38:669][289]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.28.39:670][329]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.28.39:724][331]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.28.40:583][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.28.40:583][364]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.28.40:584][364]LogWorld: UWorld::CleanupWorld for DanielRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-19.28.40:584][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.28.40:608][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-19.28.40:620][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.28.40:709][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.28.40:709][364]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.11-19.28.40:713][364]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.03.11-19.28.40:726][364]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2023.03.11-19.28.40:770][365]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.03.11-19.29.59:786][498]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.29.59:787][498]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-19.30.02:456][552]LogViewport: Scene viewport resized to 1037x689, mode Windowed.
+[2023.03.11-19.30.54:523][999]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.30.54:797][999]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.03.11-19.30.55:049][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.30.55:099][  1]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.30.55:100][  1]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_BaseAAE2A0B341FFFD1D55138C960970A1EB.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.30.55:119][  1]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.30.55:119][  1]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.31.33:307][192]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.31.33:493][192]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2023.03.11-19.31.34:140][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.31.34:206][205]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.31.34:208][205]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_Base1A78EF794678574E0FF07C86B872798E.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.31.34:235][205]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.31.34:235][205]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.33.32:903][ 82]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.33.33:079][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2023.03.11-19.33.33:539][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.33.33:590][ 92]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.33.33:592][ 92]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_Base68B12F5A48182BDF73EF369E07DA808B.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.33.33:616][ 92]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.33.33:616][ 92]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.35.12:210][401]LogViewport: Scene viewport resized to 1349x689, mode Windowed.
+[2023.03.11-19.35.40:058][234]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2023.03.11-19.35.40:061][234]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/DanielRoom' took 0.112
+[2023.03.11-19.35.40:062][234]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_AtributedDoor_Base] ([2] browsable assets)...
+[2023.03.11-19.35.40:096][234]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base]
+[2023.03.11-19.35.40:096][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_AtributedDoor_Base]
+[2023.03.11-19.35.40:164][234]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_AtributedDoor_Base_Auto3
+[2023.03.11-19.35.40:164][234]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_Base_Auto346AAAFC14B0D4F89C973CC950358891E.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Saved/Autosaves/Game/Blueprints/BP_AtributedDoor_Base_Auto3.uasset'
+[2023.03.11-19.35.40:165][234]LogFileHelpers: Auto-saving content packages took 0.103
+[2023.03.11-19.39.33:676][624]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.39.33:720][624]LogBlueprint: Error: [AssetLog] C:\Users\dan\Documents\github\CroatianMaze\CroatianMaze\Content\Blueprints\BP_AtributedDoor_Base.uasset: [Compiler] Pin 'Shape' has an unexpected type: wildcard
+[2023.03.11-19.39.33:900][624]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2023.03.11-19.42.57:950][292]LogDerivedDataCache: C:/Users/dan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.344 and deleted 0 file(s) with total size 0 MiB.
+[2023.03.11-19.44.18:408][704]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.44.18:417][704]LogBlueprint: Error: [AssetLog] C:\Users\dan\Documents\github\CroatianMaze\CroatianMaze\Content\Blueprints\BP_AtributedDoor_Base.uasset: [Compiler] Pin 'Shape' has an unexpected type: wildcard
+[2023.03.11-19.44.18:417][704]LogBlueprint: Error: [AssetLog] C:\Users\dan\Documents\github\CroatianMaze\CroatianMaze\Content\Blueprints\BP_AtributedDoor_Base.uasset: [Compiler] Pin 'Color' has an unexpected type: wildcard
+[2023.03.11-19.44.18:513][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.03.11-19.44.18:898][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.44.18:930][718]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.44.18:931][718]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_BaseF53751FE4B28E42A9F308E88D7925590.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.44.18:948][718]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.44.18:949][718]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.44.36:924][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.44.36:958][697]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.44.36:960][697]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_BaseC7AB9D2E46FB9B3218E1B5BEDB5321BA.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.44.36:976][697]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.44.36:976][697]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.44.38:018][752]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.44.38:027][752]LogBlueprint: Error: [AssetLog] C:\Users\dan\Documents\github\CroatianMaze\CroatianMaze\Content\Blueprints\BP_AtributedDoor_Base.uasset: [Compiler] Pin 'Shape' has an unexpected type: wildcard
+[2023.03.11-19.44.38:027][752]LogBlueprint: Error: [AssetLog] C:\Users\dan\Documents\github\CroatianMaze\CroatianMaze\Content\Blueprints\BP_AtributedDoor_Base.uasset: [Compiler] Pin 'Color' has an unexpected type: wildcard
+[2023.03.11-19.44.38:143][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.03.11-19.45.08:564][838]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.45.08:708][838]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.03.11-19.45.09:632][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.45.09:694][862]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.45.09:695][862]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_Base5005BA9B4A5E9E49A6445F918E8AF1E4.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.45.09:719][862]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.45.09:719][862]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.45.17:508][219]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.45.17:634][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.03.11-19.45.18:516][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.45.18:567][247]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.45.18:569][247]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_Base769CDBFF4677B01AB9A0DEB84BA7C83A.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.45.18:591][247]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.45.18:591][247]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.45.28:957][734]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.11-19.45.28:968][734]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.11-19.45.28:968][734]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.11-19.45.28:968][734]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.45.28:968][734]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.11-19.45.28:968][734]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.11-19.45.28:968][734]LogWorldPartition: Display: GetPartitionedActors took 67 us
+[2023.03.11-19.45.28:968][734]LogWorldPartition: Display: GenerateStreaming took 283 us
+[2023.03.11-19.45.28:968][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-19.45.28:968][734]PIE: New page: PIE session: DanielRoom (11 Mar 2023, 09:45:28)
+[2023.03.11-19.45.28:969][734]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.45.28:975][734]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.11-19.45.28:975][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006328s)
+[2023.03.11-19.45.28:975][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/DanielRoom.DanielRoom to /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom (0.006419s)
+[2023.03.11-19.45.28:975][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-19.45.28:976][734]LogAIModule: Creating AISystem for world DanielRoom
+[2023.03.11-19.45.28:977][734]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.11-19.45.28:977][734]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.11-19.45.28:978][734]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.03.11-19.45.28:978][734]LogPlayLevel: PIE: World Init took: (0.002998s)
+[2023.03.11-19.45.29:044][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.03.11-19.45.29:047][734]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.03.11-19.45.29:047][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-19.45.29:047][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-19.45.29:047][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-19.45.29:047][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-19.45.29:047][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-19.45.29:047][734]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.11-19.45.29:047][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-19.45.29:047][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-19.45.29:047][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.11-19.45.29:047][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.11-19.45.29:047][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.11-19.45.29:050][734]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.11-19.45.29:082][734]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.11-19.45.29:083][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-19.45.29:083][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-19.45.29:083][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-19.45.29:083][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.03.11-19.45.29:083][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.03.11-19.45.29:085][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.03.11-19.45.29:085][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.03.11-19.45.29:085][734]LogInit: FAudioDevice initialized.
+[2023.03.11-19.45.29:085][734]LogAudio: Display: Audio Device (ID: 11) registered with world 'DanielRoom'.
+[2023.03.11-19.45.29:096][734]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.11-19.45.29:097][734]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom up for play (max tick rate 60) at 2023.03.11-14.45.29
+[2023.03.11-19.45.29:097][734]LogWorld: Bringing up level for play took: 0.001316
+[2023.03.11-19.45.29:099][734]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.03.11-19.45.29:101][734]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2520.000 Y=270.000 Z=98.338
+[2023.03.11-19.45.29:101][734]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.45.29:102][734]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.45.29:102][734]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.03.11-19.45.29:103][734]PIE: Server logged in
+[2023.03.11-19.45.29:103][734]PIE: Play in editor total start time 0,138 seconds.
+[2023.03.11-19.45.32:299][909]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.45.32:918][945]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.45.32:970][948]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.45.32:987][949]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.45.34:159][ 17]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.45.35:096][ 70]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.45.35:842][112]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.45.40:304][356]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.45.42:427][473]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.45.42:883][498]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.45.43:621][539]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.45.48:873][818]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.45.48:875][818]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.45.52:537][ 10]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.45.54:137][ 94]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.45.54:802][128]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.45.55:365][157]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.45.55:920][186]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.45.56:673][225]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.45.57:297][257]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.45.57:930][289]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.45.58:295][308]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.45.58:738][330]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.45.59:057][346]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.45.59:485][366]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.46.00:122][396]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.46.00:396][408]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.46.00:823][425]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.46.01:054][435]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.46.01:244][443]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.46.01:420][448]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.46.01:790][465]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.46.01:983][474]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.46.02:183][483]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.46.02:579][500]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Circle
+[2023.03.11-19.46.03:070][521]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Triangle
+[2023.03.11-19.46.03:625][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.46.03:625][544]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.46.03:625][544]LogWorld: UWorld::CleanupWorld for DanielRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-19.46.03:625][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.46.03:643][544]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-19.46.03:651][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.46.03:734][544]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.11-19.46.03:734][544]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.11-19.46.03:737][544]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.03.11-19.46.03:743][544]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.46.03:747][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.03.11-19.46.03:782][545]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.03.11-19.46.07:359][702]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.11-19.46.07:373][702]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.11-19.46.07:373][702]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.11-19.46.07:373][702]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.46.07:373][702]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.11-19.46.07:373][702]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.11-19.46.07:373][702]LogWorldPartition: Display: GetPartitionedActors took 92 us
+[2023.03.11-19.46.07:373][702]LogWorldPartition: Display: GenerateStreaming took 363 us
+[2023.03.11-19.46.07:373][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-19.46.07:374][702]PIE: New page: PIE session: DanielRoom (11 Mar 2023, 09:46:07)
+[2023.03.11-19.46.07:374][702]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.46.07:381][702]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.11-19.46.07:381][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007402s)
+[2023.03.11-19.46.07:381][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/DanielRoom.DanielRoom to /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom (0.007499s)
+[2023.03.11-19.46.07:381][702]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-19.46.07:382][702]LogAIModule: Creating AISystem for world DanielRoom
+[2023.03.11-19.46.07:383][702]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.11-19.46.07:383][702]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.11-19.46.07:385][702]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.03.11-19.46.07:385][702]LogPlayLevel: PIE: World Init took: (0.003552s)
+[2023.03.11-19.46.07:456][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.03.11-19.46.07:458][702]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.03.11-19.46.07:458][702]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-19.46.07:458][702]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-19.46.07:458][702]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-19.46.07:458][702]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-19.46.07:458][702]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-19.46.07:458][702]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.11-19.46.07:458][702]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-19.46.07:458][702]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-19.46.07:458][702]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.11-19.46.07:458][702]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.11-19.46.07:458][702]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.11-19.46.07:461][702]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.11-19.46.07:493][702]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.11-19.46.07:494][702]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-19.46.07:494][702]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-19.46.07:494][702]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-19.46.07:495][702]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.03.11-19.46.07:495][702]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.03.11-19.46.07:497][702]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.03.11-19.46.07:497][702]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.03.11-19.46.07:497][702]LogInit: FAudioDevice initialized.
+[2023.03.11-19.46.07:497][702]LogAudio: Display: Audio Device (ID: 12) registered with world 'DanielRoom'.
+[2023.03.11-19.46.07:511][702]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.11-19.46.07:512][702]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom up for play (max tick rate 60) at 2023.03.11-14.46.07
+[2023.03.11-19.46.07:512][702]LogWorld: Bringing up level for play took: 0.001325
+[2023.03.11-19.46.07:514][702]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.03.11-19.46.07:516][702]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2520.000 Y=270.000 Z=98.338
+[2023.03.11-19.46.07:516][702]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.46.07:517][702]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.46.07:517][702]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.03.11-19.46.07:517][702]PIE: Server logged in
+[2023.03.11-19.46.07:518][702]PIE: Play in editor total start time 0,148 seconds.
+[2023.03.11-19.46.09:425][790]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.46.10:062][821]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.46.10:686][852]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.46.11:164][872]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.46.15:431][ 69]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.46.15:432][ 69]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.46.20:285][308]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.46.20:367][312]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.46.21:198][348]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.46.21:596][364]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.46.22:282][392]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.23:373][436]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.46.23:450][439]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.46.24:009][463]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.46.25:405][524]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.46.26:576][579]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.46.27:260][612]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.46.27:897][642]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.28:454][669]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.46.28:785][684]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.46.29:106][699]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.29:342][710]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.46.30:195][751]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.46.30:937][786]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.31:211][799]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.46.31:682][821]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.46.31:942][833]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.32:290][849]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.46.33:189][892]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.46.33:343][899]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.34:075][933]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.46.34:402][949]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.34:889][971]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.35:155][983]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.35:666][  7]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.46.35:938][ 20]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.36:340][ 39]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.37:165][ 78]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.46.37:692][103]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.46.37:936][114]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.46.38:135][123]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.38:677][148]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.46.38:884][158]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.39:321][178]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.39:609][191]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.40:263][220]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.46.40:671][240]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.41:084][259]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.41:764][290]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.46.42:069][304]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.46.42:462][322]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.46.43:386][365]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.43:708][380]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.46.44:122][399]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.44:370][410]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.44:810][430]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.45:070][442]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.45:528][463]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.46.46:454][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.46.46:454][505]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.46.46:454][505]LogWorld: UWorld::CleanupWorld for DanielRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-19.46.46:455][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.46.46:479][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-19.46.46:487][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.46.46:573][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.46.46:573][505]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.11-19.46.46:575][505]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.03.11-19.46.46:585][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.03.11-19.46.46:614][506]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.03.11-19.46.49:091][595]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.11-19.46.49:107][595]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.11-19.46.49:107][595]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.11-19.46.49:107][595]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.46.49:107][595]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.11-19.46.49:108][595]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.11-19.46.49:108][595]LogWorldPartition: Display: GetPartitionedActors took 175 us
+[2023.03.11-19.46.49:108][595]LogWorldPartition: Display: GenerateStreaming took 623 us
+[2023.03.11-19.46.49:108][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-19.46.49:109][595]PIE: New page: PIE session: DanielRoom (11 Mar 2023, 09:46:49)
+[2023.03.11-19.46.49:109][595]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.46.49:117][595]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.11-19.46.49:118][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008589s)
+[2023.03.11-19.46.49:118][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/DanielRoom.DanielRoom to /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom (0.008713s)
+[2023.03.11-19.46.49:118][595]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-19.46.49:118][595]LogAIModule: Creating AISystem for world DanielRoom
+[2023.03.11-19.46.49:119][595]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.11-19.46.49:119][595]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.11-19.46.49:121][595]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.03.11-19.46.49:121][595]LogPlayLevel: PIE: World Init took: (0.003834s)
+[2023.03.11-19.46.49:218][595]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2023.03.11-19.46.49:221][595]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.03.11-19.46.49:221][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-19.46.49:221][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-19.46.49:221][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-19.46.49:221][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-19.46.49:221][595]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-19.46.49:221][595]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.11-19.46.49:221][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-19.46.49:221][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-19.46.49:223][595]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.11-19.46.49:223][595]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.11-19.46.49:223][595]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.11-19.46.49:226][595]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.11-19.46.49:280][595]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.11-19.46.49:280][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-19.46.49:280][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-19.46.49:281][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-19.46.49:282][595]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.03.11-19.46.49:282][595]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.03.11-19.46.49:284][595]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.03.11-19.46.49:284][595]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.03.11-19.46.49:284][595]LogInit: FAudioDevice initialized.
+[2023.03.11-19.46.49:284][595]LogAudio: Display: Audio Device (ID: 13) registered with world 'DanielRoom'.
+[2023.03.11-19.46.49:303][595]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.11-19.46.49:305][595]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom up for play (max tick rate 60) at 2023.03.11-14.46.49
+[2023.03.11-19.46.49:305][595]LogWorld: Bringing up level for play took: 0.001849
+[2023.03.11-19.46.49:308][595]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.03.11-19.46.49:310][595]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2520.000 Y=270.000 Z=98.338
+[2023.03.11-19.46.49:310][595]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.46.49:311][595]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.46.49:312][595]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.03.11-19.46.49:312][595]PIE: Server logged in
+[2023.03.11-19.46.49:313][595]PIE: Play in editor total start time 0,209 seconds.
+[2023.03.11-19.46.50:823][642]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.46.51:675][674]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.46.52:178][693]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.46.52:704][714]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.46.56:981][873]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.46.58:797][942]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.47.03:176][107]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.47.06:857][262]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.47.08:212][322]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.47.09:432][374]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.47.12:623][517]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.47.13:513][548]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.47.14:011][567]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.47.14:578][593]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.47.18:044][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.47.18:044][740]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.47.18:045][740]LogWorld: UWorld::CleanupWorld for DanielRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-19.47.18:045][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.47.18:064][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-19.47.18:072][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.47.18:157][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.47.18:158][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.11-19.47.18:160][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.03.11-19.47.18:168][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.03.11-19.47.18:197][741]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.03.11-19.47.25:016][  8]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/DanielRoom/7/VR/N0565VW5FWAVPVN6AQ59C9
+[2023.03.11-19.47.25:017][  8]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/N0565VW5FWAVPVN6AQ59C9AE31913841BA65DA776CF29CEDED1558.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/__ExternalActors__/FirstPerson/Maps/DanielRoom/7/VR/N0565VW5FWAVPVN6AQ59C9.uasset'
+[2023.03.11-19.47.25:038][  8]AssetCheck: New page: Asset Save: BP_Trigger_C_UAID_B025AA3A887E5D6E01_1369989687
+[2023.03.11-19.47.25:038][  8]LogContentValidation: Display: Validating BP_Trigger_C /Game/FirstPerson/Maps/DanielRoom.DanielRoom:PersistentLevel.BP_Trigger_C_UAID_B025AA3A887E5D6E01_1369989687
+[2023.03.11-19.47.27:075][ 80]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/DanielRoom/7/VR/N0565VW5FWAVPVN6AQ59C9
+[2023.03.11-19.47.27:078][ 80]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/N0565VW5FWAVPVN6AQ59C95D487EC54A7F4BA05F6109B325C9AC04.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/__ExternalActors__/FirstPerson/Maps/DanielRoom/7/VR/N0565VW5FWAVPVN6AQ59C9.uasset'
+[2023.03.11-19.47.27:104][ 80]AssetCheck: New page: Asset Save: BP_Trigger_C_UAID_B025AA3A887E5D6E01_1369989687
+[2023.03.11-19.47.27:104][ 80]LogContentValidation: Display: Validating BP_Trigger_C /Game/FirstPerson/Maps/DanielRoom.DanielRoom:PersistentLevel.BP_Trigger_C_UAID_B025AA3A887E5D6E01_1369989687
+[2023.03.11-19.47.28:919][149]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.11-19.47.28:937][149]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.11-19.47.28:937][149]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.11-19.47.28:937][149]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.47.28:938][149]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.11-19.47.28:938][149]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.11-19.47.28:938][149]LogWorldPartition: Display: GetPartitionedActors took 113 us
+[2023.03.11-19.47.28:938][149]LogWorldPartition: Display: GenerateStreaming took 413 us
+[2023.03.11-19.47.28:938][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-19.47.28:938][149]PIE: New page: PIE session: DanielRoom (11 Mar 2023, 09:47:28)
+[2023.03.11-19.47.28:938][149]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.47.28:946][149]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.11-19.47.28:946][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007968s)
+[2023.03.11-19.47.28:946][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/DanielRoom.DanielRoom to /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom (0.008075s)
+[2023.03.11-19.47.28:947][149]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-19.47.28:947][149]LogAIModule: Creating AISystem for world DanielRoom
+[2023.03.11-19.47.28:948][149]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.11-19.47.28:948][149]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.11-19.47.28:950][149]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.03.11-19.47.28:950][149]LogPlayLevel: PIE: World Init took: (0.003803s)
+[2023.03.11-19.47.29:028][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2023.03.11-19.47.29:030][149]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.03.11-19.47.29:030][149]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-19.47.29:030][149]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-19.47.29:030][149]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-19.47.29:030][149]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-19.47.29:030][149]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-19.47.29:031][149]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.11-19.47.29:031][149]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-19.47.29:031][149]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-19.47.29:031][149]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.11-19.47.29:031][149]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.11-19.47.29:031][149]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.11-19.47.29:034][149]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.11-19.47.29:068][149]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.11-19.47.29:068][149]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-19.47.29:068][149]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-19.47.29:068][149]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-19.47.29:069][149]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.03.11-19.47.29:069][149]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.03.11-19.47.29:071][149]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.03.11-19.47.29:071][149]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.03.11-19.47.29:071][149]LogInit: FAudioDevice initialized.
+[2023.03.11-19.47.29:071][149]LogAudio: Display: Audio Device (ID: 14) registered with world 'DanielRoom'.
+[2023.03.11-19.47.29:085][149]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.11-19.47.29:086][149]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom up for play (max tick rate 60) at 2023.03.11-14.47.29
+[2023.03.11-19.47.29:087][149]LogWorld: Bringing up level for play took: 0.001403
+[2023.03.11-19.47.29:089][149]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.03.11-19.47.29:091][149]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2520.000 Y=270.000 Z=98.338
+[2023.03.11-19.47.29:091][149]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.47.29:092][149]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.47.29:092][149]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.03.11-19.47.29:092][149]PIE: Server logged in
+[2023.03.11-19.47.29:093][149]PIE: Play in editor total start time 0,161 seconds.
+[2023.03.11-19.47.30:748][212]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.47.34:622][374]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.47.34:623][374]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.47.36:320][445]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.47.37:363][488]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.47.37:387][489]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.47.38:409][533]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.47.38:980][557]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.47.39:510][580]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.47.40:110][605]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.47.43:519][750]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Triangle
+[2023.03.11-19.47.43:805][762]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Square
+[2023.03.11-19.47.49:324][992]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_3] Square
+[2023.03.11-19.47.49:325][992]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_4] Triangle
+[2023.03.11-19.47.51:365][ 77]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.47.51:975][103]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Size
+[2023.03.11-19.47.52:554][127]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_4] Triangle
+[2023.03.11-19.47.53:952][186]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.47.56:634][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.47.56:634][296]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.47.56:635][296]LogWorld: UWorld::CleanupWorld for DanielRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-19.47.56:635][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.47.56:657][296]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-19.47.56:665][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.47.56:757][296]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.11-19.47.56:757][296]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.11-19.47.56:760][296]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.03.11-19.47.56:765][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.47.56:770][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2023.03.11-19.47.56:829][297]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.03.11-19.48.16:225][916]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.48.16:386][916]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2023.03.11-19.48.16:924][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.48.16:987][927]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.48.16:989][927]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_Base7ABDAC044C3CC0964A4197A3AE5155DB.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.48.17:012][927]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.48.17:012][927]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.48.22:565][113]BlueprintLog: New page: Compile BP_AtributedDoor_Base
+[2023.03.11-19.48.22:743][113]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2023.03.11-19.48.23:052][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AtributedDoor_Base" FILE="../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset" SILENT=true
+[2023.03.11-19.48.23:130][115]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AtributedDoor_Base
+[2023.03.11-19.48.23:134][115]LogSavePackage: Moving '../../../../../github/CroatianMaze/CroatianMaze/Saved/BP_AtributedDoor_Base880698F5494B66AC8CAB9E814898AFDE.tmp' to '../../../../../github/CroatianMaze/CroatianMaze/Content/Blueprints/BP_AtributedDoor_Base.uasset'
+[2023.03.11-19.48.23:163][115]AssetCheck: New page: Asset Save: BP_AtributedDoor_Base
+[2023.03.11-19.48.23:163][115]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_AtributedDoor_Base.BP_AtributedDoor_Base
+[2023.03.11-19.48.27:532][266]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.11-19.48.27:547][266]LogWorldPartition: Display: GenerateStreaming started...
+[2023.03.11-19.48.27:547][266]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.03.11-19.48.27:547][266]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.48.27:547][266]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.03.11-19.48.27:547][266]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.03.11-19.48.27:547][266]LogWorldPartition: Display: GetPartitionedActors took 92 us
+[2023.03.11-19.48.27:548][266]LogWorldPartition: Display: GenerateStreaming took 399 us
+[2023.03.11-19.48.27:548][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-19.48.27:548][266]PIE: New page: PIE session: DanielRoom (11 Mar 2023, 09:48:27)
+[2023.03.11-19.48.27:548][266]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.48.27:556][266]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.03.11-19.48.27:557][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008475s)
+[2023.03.11-19.48.27:557][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/DanielRoom.DanielRoom to /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom (0.008585s)
+[2023.03.11-19.48.27:557][266]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.11-19.48.27:558][266]LogAIModule: Creating AISystem for world DanielRoom
+[2023.03.11-19.48.27:558][266]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.03.11-19.48.27:559][266]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.03.11-19.48.27:561][266]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.03.11-19.48.27:561][266]LogPlayLevel: PIE: World Init took: (0.004131s)
+[2023.03.11-19.48.27:659][266]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2023.03.11-19.48.27:662][266]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.03.11-19.48.27:662][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-19.48.27:662][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-19.48.27:662][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-19.48.27:662][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-19.48.27:662][266]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-19.48.27:663][266]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.11-19.48.27:663][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-19.48.27:663][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-19.48.27:663][266]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.03.11-19.48.27:663][266]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.03.11-19.48.27:663][266]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.11-19.48.27:667][266]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.11-19.48.27:715][266]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.03.11-19.48.27:716][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-19.48.27:716][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-19.48.27:716][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-19.48.27:718][266]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.03.11-19.48.27:718][266]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.03.11-19.48.27:721][266]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.03.11-19.48.27:721][266]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.03.11-19.48.27:721][266]LogInit: FAudioDevice initialized.
+[2023.03.11-19.48.27:721][266]LogAudio: Display: Audio Device (ID: 15) registered with world 'DanielRoom'.
+[2023.03.11-19.48.27:738][266]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.03.11-19.48.27:740][266]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom.DanielRoom up for play (max tick rate 60) at 2023.03.11-14.48.27
+[2023.03.11-19.48.27:741][266]LogWorld: Bringing up level for play took: 0.002107
+[2023.03.11-19.48.27:743][266]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.03.11-19.48.27:746][266]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2520.000 Y=270.000 Z=98.338
+[2023.03.11-19.48.27:746][266]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.03.11-19.48.27:747][266]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.48.27:747][266]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.03.11-19.48.27:747][266]PIE: Server logged in
+[2023.03.11-19.48.27:748][266]PIE: Play in editor total start time 0,204 seconds.
+[2023.03.11-19.48.28:977][308]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_0] Square
+[2023.03.11-19.48.33:105][471]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_1] Square
+[2023.03.11-19.48.33:107][471]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.48.35:247][559]LogBlueprintUserMessages: [BP_AtributedDoor_Base_C_2] Circle
+[2023.03.11-19.48.35:806][582]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Shape
+[2023.03.11-19.48.36:371][606]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Colour
+[2023.03.11-19.48.36:934][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.48.36:934][629]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_DanielRoom
+[2023.03.11-19.48.36:934][629]LogWorld: UWorld::CleanupWorld for DanielRoom, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-19.48.36:935][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.48.36:961][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-19.48.36:970][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-19.48.37:064][629]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.11-19.48.37:064][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.11-19.48.37:068][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.03.11-19.48.37:074][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-19.48.37:078][629]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.03.11-19.48.37:147][630]LogPlayLevel: Display: Destroying online subsystem :Context_34
